@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <StartupObject></StartupObject>
+    <TargetFrameworks>net471;net45;netstandard2.0;netcoreapp2.0</TargetFrameworks>
+    <RootNamespace>HearthStone.Replay.Tests</RootNamespace>
+	  <AssemblyName>HearthStone.Replay.Tests</AssemblyName>
+	  <Version>1.0.1</Version>
+	  <Description>HearthStone Deck Tracker Replay Tests</Description>
+	  <PackageTags>HearthStone Deck Tracker Replay Tests</PackageTags>
+	  <PackageReleaseNotes>Upgraded build configurations.</PackageReleaseNotes>
+	  <RepositoryType>GIT</RepositoryType>
+	  <RepositoryUrl>https://github.com/Latency/HearthStone.Replay</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/Latency/HearthStone.Replay</PackageProjectUrl>
+	  <Copyright>Copyright © HearthSim</Copyright>
+	  <PackageLicenseUrl>https://opensource.org/licenses/MIT</PackageLicenseUrl>
+	  <Company>HearthSim</Company>
+	  <Authors>HearthSim</Authors>
+	  <PackageIconUrl>https://raw.githubusercontent.com/HearthSim/Hearthstone-Deck-Tracker/master/Hearthstone%20Deck%20Tracker/Images/HearthstoneDeckTracker.ico</PackageIconUrl>
+	  <ApplicationIcon />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HearthStone.Replay" Version="1.0.1" />
+    <PackageReference Include="NUnit" Version="3.9.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+  </ItemGroup>
+
+</Project>
